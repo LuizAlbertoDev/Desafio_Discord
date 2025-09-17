@@ -91,6 +91,11 @@ p {
 
 section {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: center;
+  align-items: center;
 }
 
 section p {
