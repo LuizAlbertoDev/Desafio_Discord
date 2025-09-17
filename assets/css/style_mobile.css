@@ -29,7 +29,7 @@ body {
 
 header {
     grid-area: header;
-    background-image: url("/assets/Imagem_Mobile/Header-Background.png");
+    background-image: url("assets/Imagem_Mobile/Header-Background.png");
     background-size: cover;
     background-position: center;
     display: flex;
