@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Luckiest+Guy&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@1,300&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-rows: repeat(5,1fr)140px;
+    grid-template-areas: 
+    "header"
+    "section-1"
+    "section-2"
+    "section-3"
+    "section-4"
+    "footer";
+}
+
+header {
+    background-image: url("/assents/Imagem_Mobile/Header\ Background.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    padding: 40px 20px;
+}
+
+.quebra {
+    max-width: 300px;
+}
+
+h1 {
+    font-weight: 400;
+    text-align: start;
+    font-family: 'Luckiest Guy', cursive; /* aplica Luckiest Guy */
+    font-size: 32px;
+    max-width: 100%;
+}
+
+h2 {
+    font-family: Open Sans;
+    display: block;
+    font-size: 24px;
+    max-width: 100%;
+    font-weight: 800;
+}
+
+p {
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: start;
+    font-family: Open Sans;
+    font-size: 16px;
+    max-width: 378px;
+}
+
+.botao {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 381px;
+    font-size: 16px;
+}
+
+.botao-1 {
+    font-family: Open Sans;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 28px;
+    background-color: #FFFFFF;
+}
+
+.botao-2 {
+    font-family: Open Sans;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 20px;
+    color: white;
+    border-radius: 28px;
+    background-color: #23272A;
+}
+
+section {
+  padding: 20px;
+}
+
+section p {
+    display: flex;
+}
+
+#section-1 {
+    grid-area: section-1;
+}
+
+#section-2 {
+    grid-area: section-2;
+}
+
+#section-3 {
+    grid-area: section-3;
+}
+
+#section-4 {
+    grid-area: section-4;
+}
+
+.section-Cor {
+    background-color: #F6F6F6;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #23272A;
+    grid-area: footer;
+}
