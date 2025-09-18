@@ -51,11 +51,11 @@ h1 {
 }
 
 h2 {
+    display: flex;
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     font-weight: 800;
-    max-width: 100%;
-    margin: 20px;
+    max-width: 370px;
 }
 
 p {
@@ -112,6 +112,7 @@ p {
     color: #FFFFFF;
 }
 section {
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     text-align: start;
