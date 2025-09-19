@@ -28,7 +28,7 @@ body {
 }
 
 header {
-    background-image: url("../imagem_Mobile/Header-Background.svg");
+    background-image: url("../Imagem_Mobile/Header-Background.svg");
     background-size: cover;
     background-position: center;
     display: flex;
